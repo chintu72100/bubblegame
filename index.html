@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dom Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-blue-100">
+    
+    <main class="flex justify-center items-center gap-4 w-full h-screen flex flex-col">
+        <h1 class="text-5xl font-semibold">Bubble Game</h1>
+        <nav id="nav" class="flex   w-[500px] justify-between p-2 text-2xl mb-4 rounded-md ">
+            <div class="flex px-4 gap-2 bg-zinc-700 p-2 text-white rounded-md">
+            <h1>Target</h1>
+            <p id="target" class="">0</p>
+            </div>
+            <div class="flex px-4 gap-2 bg-zinc-700 p-2 text-white rounded-md">
+            <h1>Timer</h1>
+            <p id="timer">60</p>
+            </div>
+            <div class="flex px-4 gap-2 bg-zinc-700 p-2 text-white rounded-md">
+                <h1>Score</h1>
+            <p id="score">0</p>
+            </div>
+            
+            
+        </nav>
+        <div id="circle-container" class="flex  flex-col flex-wrap justify-center items-center"></div>
+        <button id="start" class="px-5 py-2 bg-green-500 text-white rounded-md">Start</button>
+    </main>
+    
+
+    
+ 
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
